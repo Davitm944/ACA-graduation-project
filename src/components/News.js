@@ -10,7 +10,7 @@ import SearchIcon from '@material-ui/icons/Search'
 import useMediaQuery from '@material-ui/core/useMediaQuery'
 import newsLogo from '../components/images/newslogo.png'
 import { Link } from 'react-router-dom'
-import { HOME_ROUTE } from './constantes/constants'
+import { HOME_ROUTE } from './constants/constants'
 import FooterNews from './newsFooter'
 
 function News() {

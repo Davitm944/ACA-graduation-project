@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Auth.css'
 import { useHistory } from 'react-router'
-import { SIGN_UP_ROUTE } from '../constantes/constants'
+import { SIGN_UP_ROUTE } from '../constants/constants'
 
 export default function Auth(props) {
   const {

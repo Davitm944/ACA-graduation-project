@@ -3,7 +3,7 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import './Auth.css'
 import { useHistory } from 'react-router'
-import { SIGN_IN_ROUTE } from '../constantes/constants'
+import { SIGN_IN_ROUTE } from '../constants/constants'
 
 export default function Auth(props) {
   const {

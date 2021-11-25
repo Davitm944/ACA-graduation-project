@@ -8,7 +8,7 @@ import {
   ABOUT_ROUTE,
   NEWS_ROUTE,
   BOOK_ROUTE,
-} from './constantes/constants'
+} from './constants/constants'
 
 import Book from './Book.js'
 
