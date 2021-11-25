@@ -1,7 +1,7 @@
 import { Container } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
 import React from 'react'
-import DownState from './DownState'
+import Footer from './Footer'
 import Header from './Header'
 
 const useStyles = makeStyles((theme) => ({
@@ -150,7 +150,7 @@ function About() {
           </div>
         </div>
       </Container>
-      <DownState />
+      <Footer />
     </>
   )
 }

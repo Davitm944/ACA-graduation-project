@@ -4,7 +4,7 @@ import pic from '../components/images/1.jpg'
 import pic1 from '../components/images/book-pic.jpg'
 
 import Header from './Header'
-import DownState from './DownState'
+import Footer from './Footer'
 import Container from '@material-ui/core/Container'
 const useStyles = makeStyles((theme) => ({
   display: {
@@ -79,7 +79,7 @@ function Home() {
           </div>
         </div>
       </Container>
-      <DownState />
+      <Footer />
     </>
   )
 }

@@ -2,7 +2,7 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import Header from './Header'
-import DownState from './DownState'
+import Footer from './Footer'
 import { useState } from 'react'
 import axios from 'axios'
 import { useEffect } from 'react'
@@ -12,7 +12,7 @@ import Container from '@material-ui/core/Container'
 import './Books.css'
 import GetAppTwoToneIcon from '@material-ui/icons/GetAppTwoTone'
 import { useSelector } from 'react-redux'
-import { SIGN_IN_ROUTE } from './constantes/constants'
+import { SIGN_IN_ROUTE } from './constants/constants'
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
 import { selectHasAccount } from '../redux/hasAccountSlice'
 
@@ -176,7 +176,7 @@ function Book() {
           )
         })}
       </Container>
-      <DownState />
+      <Footer />
     </>
   )
 }

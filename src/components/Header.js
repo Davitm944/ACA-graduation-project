@@ -12,7 +12,7 @@ import { Button, useMediaQuery } from '@material-ui/core';
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 import logo from '../components/images/Logo.png';
-import { HOME_ROUTE, ABOUT_ROUTE, NEWS_ROUTE, BOOK_ROUTE, SIGN_IN_ROUTE } from './constantes/constants';
+import { HOME_ROUTE, ABOUT_ROUTE, NEWS_ROUTE, BOOK_ROUTE, SIGN_IN_ROUTE } from './constants/constants';
 import fire from '../fire';
 import { useDispatch, useSelector } from 'react-redux';
 import { editHasAccount, selectHasAccount } from '../redux/hasAccountSlice';
